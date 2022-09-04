@@ -4,14 +4,16 @@
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 
+// I am AKASHDIP MAHAPATRA.
+// YouTube Channel name --- Akash AOT
 
 LiquidCrystal_I2C lcd (0x27, 16, 2);
-const char* ssid = "Dialog 4G 025";
-const char* password = "b2016ee3";
+const char* ssid = "your WIFI name";  //wifi name
+const char* password = "0000000";  //your wifi passward
 
 
-#define BOTtoken "1791644994:AAEojfvohnQxuYImHLh_0rbAdtpgT-xr2rA"
-#define CHAT_ID "1623494084"
+#define BOTtoken "1791644994:AAEojfvohnQxuYImHLh_0rbAdtpgT-xr2rA"  //your BOT-token collect from Telegram bot-father
+#define CHAT_ID "1623494084"  //your id collect from ID-Bot in Telegram
 
 #define Sensor D0
 #define LEDR D3
